@@ -1,0 +1,20 @@
+{
+    "name": "sfpythonhello",
+    "version": "0.0.1",
+    "description": "Python serverless hello world function",
+    "main": "main.py",
+    "author": "OpenIAP ApS / Allan Zimmermann",
+    "license": "MPL-2.0",
+    "openiap": {
+        "daemon": true,
+        "chromium": false,
+        "language": "python",
+        "typescript": false
+    },
+    "scripts": {
+        "start": "python main.py"
+    },
+    "keywords": [],
+    "dependencies": {
+    }
+}
