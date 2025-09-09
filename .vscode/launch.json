@@ -2,20 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "name": "Main",
+            "type": "python",
             "request": "launch",
-            "name": "Run main",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
+            "program": "main.py",
             "console": "integratedTerminal",
-            "program": "${workspaceFolder}/main.js",
-            "envFile": "${workspaceFolder}/.env",
-            "resolveSourceMapLocations": [
-                "${workspaceFolder}/**",
-                "!**/node_modules/**",
-                "**/node_modules/@openiap/**"
-            ]
+            "justMyCode": true,
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
