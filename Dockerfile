@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:latest
 LABEL anonymous="true"
 LABEL name="sfpythonhello"
 LABEL description="Python serverless hello world function"
